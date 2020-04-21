@@ -1,6 +1,7 @@
 package MyRunner;
 
 import org.junit.runner.RunWith;
+import org.testng.annotations.BeforeClass;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -16,6 +17,7 @@ import cucumber.api.junit.Cucumber;
 			dryRun = false //to check the mapping is proper between feature file and step def file
 				
 			)
+	
 	 
 	public class TestRunner {
 	 

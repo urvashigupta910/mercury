@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("AdminLogin.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("DeleteUser.feature");
 formatter.feature({
   "line": 1,
   "name": "Admin Login Feature",
@@ -6,11 +6,15 @@ formatter.feature({
   "id": "admin-login-feature",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 14505390100,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 3,
-  "name": "Login Test Scenario",
+  "name": "Delete from More Options",
   "description": "",
-  "id": "admin-login-feature;login-test-scenario",
+  "id": "admin-login-feature;delete-from-more-options",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -31,7 +35,7 @@ formatter.step({
 });
 formatter.step({
   "line": 8,
-  "name": "Admin confirms to delete",
+  "name": "admin confirms to delete",
   "keyword": "Then "
 });
 formatter.step({
@@ -43,35 +47,35 @@ formatter.match({
   "location": "StepDefinition.admin_is_already_on_Logged_in()"
 });
 formatter.result({
-  "duration": 35602022400,
+  "duration": 697076201,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.admin_delete_a_user_by_clicking_on_more_options()"
 });
 formatter.result({
-  "duration": 38300,
+  "duration": 1416344700,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.admin_clicks_on_delete()"
 });
 formatter.result({
-  "duration": 23000,
+  "duration": 579204101,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.admin_confirms_to_delete()"
 });
 formatter.result({
-  "duration": 25200,
+  "duration": 37100,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.user_should_be_deleted_successfully()"
 });
 formatter.result({
-  "duration": 92200,
+  "duration": 192600,
   "status": "passed"
 });
 });

@@ -3,16 +3,27 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 14505390100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.setUp()"
+            }
+          }
+        ],
         "line": 3,
-        "name": "Login Test Scenario",
+        "name": "Delete from More Options",
         "description": "",
-        "id": "admin-login-feature;login-test-scenario",
+        "id": "admin-login-feature;delete-from-more-options",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 35602022400,
+              "duration": 697076201,
               "status": "passed"
             },
             "line": 5,
@@ -24,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 38300,
+              "duration": 1416344700,
               "status": "passed"
             },
             "line": 6,
@@ -36,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 23000,
+              "duration": 579204101,
               "status": "passed"
             },
             "line": 7,
@@ -48,11 +59,11 @@
           },
           {
             "result": {
-              "duration": 25200,
+              "duration": 37100,
               "status": "passed"
             },
             "line": 8,
-            "name": "Admin confirms to delete",
+            "name": "admin confirms to delete",
             "match": {
               "location": "StepDefinition.admin_confirms_to_delete()"
             },
@@ -60,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 92200,
+              "duration": 192600,
               "status": "passed"
             },
             "line": 9,
@@ -77,6 +88,6 @@
     "description": "",
     "id": "admin-login-feature",
     "keyword": "Feature",
-    "uri": "AdminLogin.feature"
+    "uri": "DeleteUser.feature"
   }
 ]
