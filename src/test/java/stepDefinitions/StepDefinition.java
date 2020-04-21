@@ -69,7 +69,7 @@ public class StepDefinition{
 	
 	 @Then("^admin confirms to delete$")
 	 public void admin_confirms_to_delete(){
-	 
+	 System.out.println("Deleted");
 		 
 			}
 	 @Then("^user should be deleted successfully$")
