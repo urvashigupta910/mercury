@@ -10,7 +10,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class BrowserFactory {
 	private static WebDriver driver=null;
-	
+	String os = System.getProperty("os.name").toLowerCase();
+	System.out.println("OS = " + os );
 	public static WebDriver getBrowser(String bname,String rm )
 	{
 		if(BrowserFactory.driver==null)
@@ -25,8 +26,6 @@ public class BrowserFactory {
 				{
 					System.setProperty("webdriver.chrome.driver", "./BrowserExe/chromedriver.exe");
 					BrowserFactory.driver=new ChromeDriver();
-					 String os = System.getProperty("os.name").toLowerCase();
-					  System.out.println("OS = " + os );
 				}
 				else if(bname.equalsIgnoreCase("firefox"))
 				{
