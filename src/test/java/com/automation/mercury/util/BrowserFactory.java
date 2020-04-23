@@ -25,7 +25,8 @@ public class BrowserFactory {
 				{
 					System.setProperty("webdriver.chrome.driver", "./BrowserExe/chromedriver.exe");
 					BrowserFactory.driver=new ChromeDriver();
-					 System.out.println("OS = " + os );
+					 String os = System.getProperty("os.name").toLowerCase();
+					  System.out.println("OS = " + os );
 				}
 				else if(bname.equalsIgnoreCase("firefox"))
 				{
